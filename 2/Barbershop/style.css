@@ -1,0 +1,115 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #222;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #d2b48c;
+  padding: 1rem;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #f4e1c1;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.hero-text {
+  margin-top: 1rem;
+}
+
+.hero-text p {
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background: #5a2d0c;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+/* Footer */
+.footer {
+  background: #d2b48c;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.footer-info,
+.footer-copy,
+.footer-social {
+  margin: 0.5rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.social-icons a {
+  text-decoration: none;
+  background: #5a2d0c;
+  color: #fff;
+  padding: 0.4rem 0.7rem;
+  border-radius: 50%;
+  font-size: 0.8rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .nav-list {
+    margin-top: 0.5rem;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
