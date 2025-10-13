@@ -1,0 +1,159 @@
+
+.footer {
+    background-color: #b89c6e;
+    padding: 10px 0;
+    color: #000;
+    font-family: Arial, sans-serif;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0px 100px;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    flex: 1;
+    margin-left: -80px;
+}
+
+.footer-center {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-right { 
+    flex: 1;
+    text-align: right;
+   margin-right: -80px;
+   
+}
+
+.footer h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.contact-item img {
+    width: 16px;
+    height: 16px;
+}
+
+.contact-item a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.copyright {
+    font-size: 14px;
+    margin-top: 30px;
+    width: 400px;
+    height: 30px;
+    background-color: #ebdaa8;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    text-align: center;
+    opacity: 0.7; 
+
+}
+
+.social-links {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+}
+
+.social-link {
+    display: inline-block;
+}
+
+.social-link img {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.2s;
+}
+
+.social-link:hover img {
+    transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .footer-left, .footer-center, .footer-right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact-info {
+        align-items: center;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #b89c6e;
+    height: 80px;
+}
+
+
+.logo img {
+    width: 170px; 
+    height: auto;
+    margin-top: 20px;
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+

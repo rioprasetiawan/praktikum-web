@@ -1,0 +1,202 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}   
+
+main {
+    position: relative;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(assets/MASUK.png);
+}
+
+/* Header */
+header {
+    background-color: #b38b6d;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+header nav a {
+    margin: 0 15px;
+    color: #000;
+    text-decoration: none;
+}
+
+header nav .active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+header nav .profile-icon img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.search-form {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    padding: 1px;
+    padding-left: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+.search-form input {
+    border: none;
+    background: none;
+}
+
+.search-form input:focus {
+    outline: none;
+    border: none;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #78350f;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: 60px;
+    border: solid 2px;
+    border-color: #000;
+}
+/* Queue List Table */
+.queue-list {
+    align-items: center;
+    background-color: #e4c087   ;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 15px 15px 10px #b89c6e;
+    text-align: center;
+}
+
+.queue-list h2 {
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 3px solid #000000;   
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.queue-list table {
+    align-items: center;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.queue-list th,
+.queue-list td {
+    border: 1px solid #000000;
+    padding: 12px;
+    text-align: center;
+}
+
+.queue-list th {
+    font-weight: bold;
+    color: #333;
+}
+
+
+.pagination {
+    margin: 20px 0;
+    text-align: center;
+}
+.pagination .paginationbackground {
+    display: inline-block;
+    padding: 6px;
+    border-radius: 5px;
+    background: #b89c6e;
+}
+.pagination a{
+    color: black;
+    text-decoration: none;
+    margin-top: 6px;
+    padding: 8px 15px;
+    display: inline-block;
+}
+.pagination a.active{
+    background-color: #937648;
+    border: 1px solid #000000; 
+    color: #000000;            
+    font-weight: bold;         
+    border-radius: 5px;
+   
+}
+
+button:hover {
+    background-color: #422908;
+}
+
+
+.pagination button,
+.pagination a {
+    margin: 0;
+    padding: 10px;
+}
+
+.pagination button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid #000000;
+    background-color: #937648;
+    color: #000000;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.pagination button:hover {
+    background: #422908;
+    color: white;
+}

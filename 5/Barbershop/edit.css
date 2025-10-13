@@ -1,0 +1,94 @@
+/* General Styling */
+body {
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: Arial, sans-serif;
+     background-image: url(assets/MASUK.png);
+}
+
+.form-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; /* Tumpuk elemen secara vertikal */
+    align-items: center;    /* Jika ingin form dan h2 sejajar di tengah */
+}
+
+h2 {
+    color: #000000;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Form Styling */
+form {
+    width: 400px;
+    padding: 25px;
+    background: #e4c087; /* Warna form */
+    border-radius: 12px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2); /* Bayangan yang lebih halus */
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #422908; /* Warna teks label */
+    text-align: left;
+}
+
+form input {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s;
+}
+
+form input:focus {
+    border-color: #78350f;
+    outline: none;
+}
+
+form button {
+    background-color: #78350f; /* Warna utama tombol */
+    color: white;
+    border: solid 2px #000;
+    padding: 12px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+form button:hover {
+    background-color: #422908; /* Warna tombol saat hover */
+    transform: scale(1.05); /* Efek pembesaran */
+}
+
+form a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+form a:hover {
+    color: #0056b3; /* Warna teks link saat hover */
+}
+
+.button{
+    color: white;
+}

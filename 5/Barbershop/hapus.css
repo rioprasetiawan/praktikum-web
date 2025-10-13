@@ -1,0 +1,44 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h2 {
+    color: #78350f;
+    text-align: center;
+}
+
+/* Message Styling */
+.message {
+    width: 400px;
+    padding: 20px;
+    background: #e4c087;
+    border: 2px solid #78350f;
+    border-radius: 10px;
+    box-shadow: 15px 15px 10px #b89c6e;
+    text-align: center;
+    font-size: 18px;
+    color: #000000;
+}
+
+.message a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    background-color: #78350f;
+    border-radius: 30px;
+    border: solid 2px #000;
+    transition: background-color 0.3s;
+}
+
+.message a:hover {
+    background-color: #422908;
+}

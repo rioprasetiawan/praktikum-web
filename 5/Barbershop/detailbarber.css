@@ -1,0 +1,107 @@
+/* General Reset */
+body {
+    position: relative;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Arial, sans-serif;
+    background-image: url(assets/detailbarber.png);
+}
+
+
+.shop-name {
+    width: 200px;  
+    height: 50px; 
+    display: flex;
+    justify-content: center; /* untuk memusatkan secara horizontal */
+    align-items: center;
+    background-color: #78350f;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+}
+
+
+.map-container iframe {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.info {
+    display: flex;
+    gap: 20px;
+    width: 650px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.info-box,
+h2,li {
+    font-size: 22px;
+    text-align: start;
+}
+
+.info-box {
+    color: white;
+    flex: 1;
+    background: rgba(237, 211, 168, 0.5); /* Warna dengan transparansi */
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.info-box h2 {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.gallery-box {
+    margin-top: 15px;
+    display: flex; /* Mengaktifkan Flexbox */
+    flex-wrap: wrap; /* Membuat elemen turun ke baris baru jika tidak cukup ruang */
+    gap: 10px; /* Memberikan jarak antar elemen */
+    padding: 10px; /* Menambahkan ruang di dalam container */
+    background-color: bisque;
+    border: 2px solid #ccc; /* Hanya untuk visualisasi */
+}
+
+.gallery-box img {
+    width: auto; /* Lebar gambar */
+    height: 150px; /* Menjaga rasio aspek */
+    border-radius: 8px; /* Opsional, hanya untuk gaya */
+}
+
+.button-lanjut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.button-lanjut .btn{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #32cd32;
+    color: white;
+    height: 25px;
+    font-size: 2vh;
+    width: auto;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    align-items: center ;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+}
+

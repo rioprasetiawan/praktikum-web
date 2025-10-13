@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('assets/MASUK.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #000;
+    margin-top: -30px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 200px;
+}
+
+.content img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.content2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    gap: 20px;
+    align-items: center;
+    justify-content: right;
+    margin-left: 200px;
+    margin-top: -50px;
+}
+
+.content2 img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    
+}
+
+.line{
+    width:0;
+    height: 170px;
+    border: solid 2px#000;
+}
+
+
+.text {
+    max-width:600px;
+    line-height: 1.8;
+    font-size: large;
+    text-align: justify;
+}
+
+.text1 {
+    max-width:600px;
+    line-height: 1.8;
+    font-size: large;
+    text-align: justify;
+}
